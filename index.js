@@ -15,7 +15,7 @@ const purchaseRoutes = require("./routes/PurchaseRoutes");
 
 // Middleware
 const corsOption={
-  origin:"http://localhost:5173",
+  origin:"https://abhishekfrontend.netlify.app",
   method:"GET,POST,PUT,DELETE,PATCH,HEAD",
   credentials:true,
 };
